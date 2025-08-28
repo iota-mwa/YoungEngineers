@@ -60,7 +60,7 @@ class Game extends Phaser.Scene {
 
         // Score display
         this.jiaDeScoreText = this.add.text(100, 50, 'Jia De: 0', { fontSize: '32px', fill: '#fff' });
-        this.opponentScoreText = this.add.text(824, 50, 'Opponent: 0', { fontSize: '32px', fill: '#fff' });
+        this.opponentScoreText = this.add.text(800, 50, 'Opponent: 0', { fontSize: '32px', fill: '#fff' });
 
         // Game over text (hidden initially)
         this.gameOverText = this.add.text(WIDTH / 2, HEIGHT / 2, '', { 
@@ -140,4 +140,5 @@ class Game extends Phaser.Scene {
             this.gameOverText.setText('🏆 Opponent wins the game!');
         }
     }
+
 }
