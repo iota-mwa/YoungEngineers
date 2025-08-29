@@ -23,6 +23,10 @@ class Game extends Phaser.Scene {
         // Game over flag
         this.gameOver = false;
         this.gameOverText = null;
+
+        //Game instructions
+        this.jiaDeText = "Use Keys W and S to move";
+        this.opponentText = "Use arrow keys to move";
     }
 
     preload() {
@@ -142,4 +146,5 @@ class Game extends Phaser.Scene {
     }
 
 }
+
 
