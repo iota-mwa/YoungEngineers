@@ -70,6 +70,9 @@ class Game extends Phaser.Scene {
         this.opponentScoreText = this.add.text(700, 50, 'Opponent: 0', { fontSize: '32px', fill: '#fff' });
         this.opponentText = this.add.text(620, 100, 'Use arrow keys to move', { fontSize: '28px', fill: '#fff' });
 
+        this.startText = this.add.text(20, 150, 'Spacebar to start', { fontSize: '28px', fill: '#fff' });
+
+        
         // Game over text (hidden initially)
         this.gameOverText = this.add.text(WIDTH / 2, HEIGHT / 2, '', { 
             fontSize: '48px', 
@@ -150,6 +153,7 @@ class Game extends Phaser.Scene {
     }
 
 }
+
 
 
 
