@@ -27,6 +27,7 @@ class Game extends Phaser.Scene {
         //Game instructions
         this.jiaDeText = 0;
         this.opponentText = 0;
+        this.startText = 0;
     }
 
     preload() {
@@ -149,6 +150,7 @@ class Game extends Phaser.Scene {
     }
 
 }
+
 
 
 
